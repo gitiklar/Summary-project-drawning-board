@@ -1,4 +1,4 @@
-const serverUrl = 'https://server-for-drawning-board.herokuapp.com';
+const serverUrl = 'https://drawning-board-server-gita.herokuapp.com';
 import {bus} from './index.js';
 
 export default class PaintingService {
