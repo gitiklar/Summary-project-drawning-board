@@ -13,6 +13,8 @@ function removeTokenIfAlredyExistInOneOfThePainting(tokenOfCurrentPage) {
     }
 }
 
+app.use(express.static(__dirname + "/client"));
+
 app.use(bodyParser.json());
 
 app.use(function(req, res, next) {
