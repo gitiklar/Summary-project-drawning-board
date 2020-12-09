@@ -3,7 +3,8 @@ $purpleClr:#662234;
 
 body {
     display: grid;
-    grid-template-areas: "header  header  header" "asideLeft main asideRight";
+    grid-template-areas: "header  header  header"
+                         "asideLeft main asideRight";
     margin: 0; 
 }
 
